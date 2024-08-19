@@ -1,45 +1,3 @@
-/* .container{
-    margin: 0 auto;
-    width: 100%;
-}
-.navbar{
-    flex-direction: column;
-}
-.logo{
-    display: none;
-}
-body{
-    background-color: #003607;
-}
-.menubar .menu{
-    flex-direction: column;
-}
-.menubar .menu li a{
-    font-size: 20px;
-}
-.menubar .menu li {
-    margin: 5px 0;
-}
-
-.bannar-section{
-    flex-direction: column;
-    gap: 100px;
-    align-items: center;
-    height: 100%;
-}
-
-.image-section{
-    width: 100%;
-}
-
-.image-section .bannar-effect{
-    display: none;
-} */
-
-
-
-
-
 .container{
     width: 100%;
 }
@@ -151,21 +109,28 @@ img{
 .frequently-section-container{
    flex-direction: column;
    align-items: center;
+   margin-bottom: 60px;
+   padding: 0 20px;
 }
 
 .content{
     justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.content img{
     width: 100%;
 }
 .asked-questions{
     width: 100%;
 }
-.information{
-    padding: 80px 55px 0 55px;
-}
+
 .detels{
     margin: 0;
     flex-direction: column;
+}
+.information{
+    padding: 80px 55px 0 55px;
 }
 ul{
     padding: 10px;
