@@ -1,11 +1,11 @@
 .container{
-    width: 100%;
+    width: 90%;
 }
-
 .logo{
     display: none;
 }
 .navbar{
+    width: 100%;
     flex-direction: column;
     background-color: #010d11c2;
     position: relative;
