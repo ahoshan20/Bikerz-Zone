@@ -43,6 +43,10 @@ ul li{
     color: #ffffff;
 
 }
+#menu-icon{
+    display: none;
+    color: #ffffff;
+}
 .menubar .menu{
     display: flex;
     gap: 10px;
@@ -57,16 +61,18 @@ ul li{
     padding: 8px 18px;
     border-radius: 5px;
 }
-.menubar .menu li:last-child a{
+.login-btn a{
     padding: 10px 24px;
     margin-left: 15px;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: 600;
     color: rgb(255, 255, 255);
     background-color: #E76F51;
+    border-radius: 5px;
+
 }
-.menubar .menu li:last-child a:hover{
-    background-color: #0aadee;
+.login-btn a:hover{
+    background-color: #51e75983;
 }
 /* bannar style  */
 .bannar-section{
