@@ -1,7 +1,14 @@
+<<<<<<< HEAD
+=======
+.container{
+    width: 90%;
+}
+>>>>>>> 1f73383 (mobile device width change)
 .logo{
     display: none;
 }
 .navbar{
+    width: 100%;
     flex-direction: column;
     background-color: #010d11c2;
     position: relative;
